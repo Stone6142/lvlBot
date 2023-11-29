@@ -6,7 +6,7 @@ module.exports = {
             .setColor('RANDOM')
             .setTitle('Shop')
             .setDescription('Spend your coins in the wholesome shop!')
-            .setURL('https://github.com/CKStudios2018/lvlBot/blob/main/commands/shop.js')
+            .setURL('https://github.com/stone6142/lvlBot/blob/main/commands/shop.js')
             .addFields(
                 {name: 'Lamborghini Huracán Evo', value: '`ID: lambo` 261274 coins', inline: true},
                 {name: 'Cookie', value: '`ID: cookie` 6 coins', inline: true},
@@ -17,8 +17,8 @@ module.exports = {
                 {name: 'Duck Plush', value: '`ID: duckplush` \n 20 coins'}
             )
             .addField('\u200b', '\u200b')
-            .addField("Help", '[Link](https://ckstudios2018.github.io/lvlBot/help/shop)', true)
-            .addField("Sell Item", '[Link](https://ckstudios2018.github.io/lvlBot/shop/sell/)', true)
+            .addField("Help", '[Link](https://stone6142.github.io/lvlBot/help/shop)', true)
+            .addField("Sell Item", '[Link](https://stone6142.github.io/lvlBot/shop/sell/)', true)
             .setTimestamp()
             .setFooter(`requested by ` + message.author.username + " (" + message.author.id + ")")
         message.channel.send(shopEmbed);
