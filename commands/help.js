@@ -7,7 +7,7 @@ module.exports = {
             .setColor('RANDOM')
             .setTitle('Help')
             .setDescription('Get some commands help!')
-            .setURL('https://ckstudios2018.github.io/lvlBot/help/')
+            .setURL('https://stone6142.github.io/lvlBot/help/')
             .addFields(
                 {name: 'Help', value: 'This embed', inline: true},
                 {name: 'Rank', value: 'Shows your DLB Rank', inline: true},
@@ -18,7 +18,7 @@ module.exports = {
                 {name: 'biz', value: 'administrate your buisiness!', inline: true}
             )
             .addField('\u200b', '\u200b')
-            .addField("Website", '[Link](https://ckstudios2018.github.io/lvlBot/)', true)
+            .addField("Website", '[Link](https://stone6142.github.io/lvlBot/)', true)
             .setTimestamp()
             .setFooter(`requested by ` + message.author.username + " (" + message.author.id + ")")
         message.channel.send(helpEmbed);
